@@ -209,6 +209,10 @@ footer p {
   section img {
     width: 100%;
   }
+  .redes-sociales {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
