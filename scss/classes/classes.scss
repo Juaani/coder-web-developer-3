@@ -1,21 +1,8 @@
-body{
-    
-    a{
-        font-family: 'Roboto';
-        color: white;
-        text-decoration: none;
-        &:hover{
-            color: orange;
-        }
-    }
-    p{
-        color: white;
-        font-family: 'Roboto';
-    }
-    h1{
-        padding: 2rem;
-    }
+.burger-menu{
+    background-color: white;
+    width: 50px;
 }
+
 
 .invert{
     filter: invert(100%);
@@ -42,4 +29,21 @@ body{
         padding: 2rem;
         padding-bottom: 5rem;
     }
+}
+
+.redes-sociales{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.copy{
+    padding-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
 }

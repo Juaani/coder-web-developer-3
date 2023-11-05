@@ -1,7 +1,9 @@
-@import 'header';
-@import 'body';
-@import 'footer';
-@import 'text';
+@import './general/body.scss';
+@import './general/header.scss';
+@import './general/footer.scss';
+@import './classes/classes.scss';
+@import './components/text.scss';
+@import './components/media.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 

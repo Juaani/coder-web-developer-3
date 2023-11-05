@@ -4,21 +4,17 @@ header{
         width: 200px;
         height: auto;
         }
-        h1{
-            size: 0.5rem;
-        }
         button{
             background-color: white;
         }
         a{
-            color: white;
+            color: black;
             font-family: 'Roboto';
-            font-size: 24px;
+            font-size: 1.2rem;
             font-weight: bolder;
+            &:hover{
+                color: orange;
+            }
         }
 }
 
-.burger-menu{
-    background-color: white;
-    width: 50px;
-}

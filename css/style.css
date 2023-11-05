@@ -1,27 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-header img {
-  padding: 10px;
-  width: 200px;
-  height: auto;
-}
-header h1 {
-  size: 0.5rem;
-}
-header button {
-  background-color: white;
-}
-header a {
-  color: white;
-  font-family: "Roboto";
-  font-size: 24px;
-  font-weight: bolder;
-}
-
-.burger-menu {
-  background-color: white;
-  width: 50px;
-}
-
 body a {
   font-family: "Roboto";
   color: white;
@@ -36,6 +13,46 @@ body p {
 }
 body h1 {
   padding: 2rem;
+}
+
+header img {
+  padding: 10px;
+  width: 200px;
+  height: auto;
+}
+header button {
+  background-color: white;
+}
+header a {
+  color: black;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+header a:hover {
+  color: orange;
+}
+
+footer {
+  padding: 0;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  gap: 2rem;
+}
+footer p {
+  font-family: "Roboto";
+  color: white;
+  font-size: 1rem;
+}
+
+.burger-menu {
+  background-color: white;
+  width: 50px;
 }
 
 .invert {
@@ -63,23 +80,6 @@ body h1 {
   padding-bottom: 5rem;
 }
 
-footer {
-  padding: 0;
-  height: auto;
-  width: auto;
-  overflow: hidden;
-}
-footer img {
-  width: 30px;
-  height: 30px;
-  gap: 2rem;
-}
-footer p {
-  font-family: "Roboto";
-  color: white;
-  font-size: 1rem;
-}
-
 .redes-sociales {
   align-items: center;
   display: flex;
@@ -99,12 +99,47 @@ footer p {
 
 .titulo {
   color: black;
-  font-size: 3rem;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  font-family: "Roboto";
 }
 
 .sub-titulo {
   color: black;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.titulo-carrousel {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.subtitulo-carrousel {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: "Roboto";
+}
+
+.nav-item a {
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-weight: bolder;
+}
+.nav-item a:hover {
+  color: orange;
+}
+
+@media (max-width: 378px) {
+  .banner img {
+    height: 400px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
