@@ -1,11 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 header img {
   padding: 10px;
   width: 200px;
   height: auto;
-  filter: invert(100%);
 }
 header h1 {
   size: 0.5rem;
+}
+header button {
+  background-color: white;
+}
+header a {
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.burger-menu {
+  background-color: white;
+  width: 50px;
+}
+
+body a {
+  font-family: "Roboto";
+  color: white;
+  text-decoration: none;
+}
+body a:hover {
+  color: orange;
+}
+body p {
+  color: white;
+  font-family: "Roboto";
+}
+body h1 {
+  padding: 2rem;
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  --bs-gutter-x: 0rem;
+  height: auto;
+}
+.banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+.banner p {
+  font-weight: bold;
+}
+
+.tarjetas img {
+  width: 100%;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+footer {
+  padding: 0;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+  gap: 2rem;
+}
+footer p {
+  font-family: "Roboto";
+  color: white;
+  font-size: 1rem;
+}
+
+.redes-sociales {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.copy {
+  padding-top: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.titulo {
+  color: black;
+  font-size: 3rem;
+}
+
+.sub-titulo {
+  color: black;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

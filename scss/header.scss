@@ -3,9 +3,22 @@ header{
         padding: 10px;
         width: 200px;
         height: auto;
-        filter: invert(100%);
         }
         h1{
             size: 0.5rem;
         }
+        button{
+            background-color: white;
+        }
+        a{
+            color: white;
+            font-family: 'Roboto';
+            font-size: 24px;
+            font-weight: bolder;
+        }
+}
+
+.burger-menu{
+    background-color: white;
+    width: 50px;
 }
