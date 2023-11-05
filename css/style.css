@@ -20,9 +20,6 @@ header img {
   width: 200px;
   height: auto;
 }
-header button {
-  background-color: white;
-}
 header a {
   color: black;
   font-family: "Roboto";
@@ -31,6 +28,11 @@ header a {
 }
 header a:hover {
   color: orange;
+}
+
+main a {
+  color: black;
+  font-size: 1rem;
 }
 
 footer {
@@ -51,8 +53,17 @@ footer p {
 }
 
 .burger-menu {
-  background-color: white;
   width: 50px;
+}
+.burger-menu:hover {
+  background-color: white;
+}
+.burger-menu:hover i {
+  filter: invert(0%);
+}
+.burger-menu i {
+  width: 100%;
+  filter: invert(100%);
 }
 
 .invert {
@@ -95,6 +106,12 @@ footer p {
   justify-content: center;
   text-align: center;
   gap: 1rem;
+}
+
+.img-carrousel img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }
 
 .titulo {
