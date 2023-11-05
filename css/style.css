@@ -6,6 +6,7 @@ body a {
 }
 body a:hover {
   color: orange;
+  transition: all 0.3s ease-in-out;
 }
 body p {
   color: white;
@@ -28,6 +29,7 @@ header a {
 }
 header a:hover {
   color: orange;
+  transition: all 0.3s ease-in-out;
 }
 
 main a {
@@ -39,6 +41,19 @@ main p {
   font-family: "Roboto";
   color: black;
   justify-content: center;
+}
+main button {
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+  border-color: transparent;
+}
+main button:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in-out;
+}
+main iframe {
+  width: 100%;
 }
 
 footer {
@@ -63,9 +78,11 @@ footer p {
 }
 .burger-menu:hover {
   background-color: white;
+  transition: all 0.5s ease-in-out;
 }
 .burger-menu:hover i {
   filter: invert(0%);
+  transition: all 0.5s ease-in-out;
 }
 .burger-menu i {
   width: 100%;
@@ -91,10 +108,19 @@ footer p {
   font-weight: bold;
 }
 
-.tarjetas img {
+.tarjeta {
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+.tarjeta img {
+  padding: 1rem;
   width: 100%;
-  padding: 2rem;
-  padding-bottom: 5rem;
+  height: 90%;
+  object-fit: contain;
+}
+.tarjeta img:hover {
+  box-shadow: 5px 5px 5px grey;
+  transition: all 0.4s ease-in-out;
 }
 
 .redes-sociales {
@@ -123,6 +149,12 @@ footer p {
 .img-mvo {
   width: 50px;
   height: 50px;
+}
+
+.btn-form:hover {
+  background-color: orange;
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in-out;
 }
 
 .titulo {

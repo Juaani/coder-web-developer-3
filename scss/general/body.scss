@@ -6,6 +6,7 @@ body{
         text-decoration: none;
         &:hover{
             color: orange;
+            transition: all 0.3s ease-in-out;
         }
     }
     p{
