@@ -31,8 +31,14 @@ header a:hover {
 }
 
 main a {
+  font-family: "Roboto";
   color: black;
   font-size: 1rem;
+}
+main p {
+  font-family: "Roboto";
+  color: black;
+  justify-content: center;
 }
 
 footer {
@@ -114,6 +120,11 @@ footer p {
   object-fit: contain;
 }
 
+.img-mvo {
+  width: 50px;
+  height: 50px;
+}
+
 .titulo {
   color: black;
   font-size: 2.2rem;
@@ -153,9 +164,18 @@ footer p {
   color: orange;
 }
 
-@media (max-width: 378px) {
+.cita {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 478px) {
   .banner img {
-    height: 400px;
+    height: 360px;
+  }
+  section img {
+    width: 100%;
   }
 }
 

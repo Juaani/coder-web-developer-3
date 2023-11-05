@@ -1,7 +1,15 @@
-@media(max-width:378px){
+@media(max-width:478px){
     .banner{
         img{
-            height: 400px;
+            height: 360px;
     }
          }
+    section{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:768px){
 }
