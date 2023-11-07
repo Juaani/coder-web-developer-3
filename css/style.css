@@ -120,6 +120,7 @@ footer p {
 }
 .tarjeta img:hover {
   box-shadow: 5px 5px 5px grey;
+  transform: translateY(-2px);
   transition: all 0.4s ease-in-out;
 }
 
@@ -129,6 +130,10 @@ footer p {
   justify-content: center;
   text-align: center;
   gap: 3rem;
+}
+.redes-sociales img:hover {
+  transform: translateY(-2px);
+  transition: all 0.4s ease-in-out;
 }
 
 .copy {
